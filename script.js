@@ -16,3 +16,18 @@ function imprimirVariables(){
     console.warn("Advertencia: x x x");
 }
 
+function arreglos(){
+    // Arreglos
+    let frutas = ['manzana','pera','banana'];
+    // Bucle
+    for(let f of frutas){
+        console.log(f)
+    }
+    // Condicionales
+    if (frutas[0]=== 'pera'){
+        console.log("La segunda fruta es una pera");
+    }else{
+        console.log('No es una pera');
+    }
+}
+    
